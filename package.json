@@ -4,15 +4,15 @@
   "description": "A game for the github game jam!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PleaseWorkGames/throwback.git"
   },
-  "keywords": [
-    "awesomeness"
-  ],
+  "keywords": ["awesomeness"],
   "author": "Please Work Games",
   "license": "MIT",
   "bugs": {
@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/PleaseWorkGames/throwback#readme",
   "dependencies": {
-    "phaser": "^2.6.2"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "phaser": "^2.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }
