@@ -1,0 +1,25 @@
+{
+  "name": "throwback",
+  "version": "1.0.0",
+  "description": "A game for the github game jam!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PleaseWorkGames/throwback.git"
+  },
+  "keywords": [
+    "awesomeness"
+  ],
+  "author": "Please Work Games",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PleaseWorkGames/throwback/issues"
+  },
+  "homepage": "https://github.com/PleaseWorkGames/throwback#readme",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}
